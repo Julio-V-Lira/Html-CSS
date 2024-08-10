@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(243, 43, 43, 0.507);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+main{
+    background-color: rgba(178, 250, 190, 0.781);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 11px 0px black
+    
+}
+article > aside{
+    background-color: rgba(169, 169, 169, 0.521);
+    color: black;
+    text-align: center;
+    margin: 5px;
+    
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 3px;
+    box-shadow: 4px -3px 4px 0px black;
+    
+}
+nav > a {
+ text-decoration: none;
+ color: white;
+ margin: 10px 30px 10px 20px ;
+}
+nav > a:hover {
+ text-decoration: underline;
+}
